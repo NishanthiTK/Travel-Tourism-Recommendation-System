@@ -19,11 +19,12 @@ st.set_page_config(
 # 2. PROJECT PATHS
 # ==========================================
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 
 MODEL_DIR = BASE_DIR / "models"
 
 DATA_PATH = BASE_DIR / "dataset" / "Travel_Destinations_Cleaned.csv"
+
 
 
 # ==========================================
